@@ -125,7 +125,7 @@ public class UploadActivity extends AppCompatActivity {
 
         String currentDate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
 
-        FirebaseDatabase.getInstance("https://listingapp-4b027-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("Android Tutorials").child(currentDate)
+        FirebaseDatabase.getInstance("https://listingapp-4b027-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("Products").child(currentDate)
                 .setValue(dataClass).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {

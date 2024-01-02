@@ -76,7 +76,7 @@ public class UpdateActivity extends AppCompatActivity {
             key = bundle.getString("Key");
             oldImageURL = bundle.getString("Image");
         }
-        databaseReference = FirebaseDatabase.getInstance("https://listingapp-4b027-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("Android Tutorials").child(key);
+        databaseReference = FirebaseDatabase.getInstance("https://listingapp-4b027-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("Products").child(key);
 
         updateImage.setOnClickListener(new View.OnClickListener() {
             @Override

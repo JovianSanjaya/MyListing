@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         adapter = new MyAdapter(MainActivity.this, dataList);
         recyclerView.setAdapter(adapter);
 
-        databaseReference = FirebaseDatabase.getInstance("https://listingapp-4b027-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("Android Tutorials");
+        databaseReference = FirebaseDatabase.getInstance("https://listingapp-4b027-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("Products");
         dialog.show();
         eventListener = databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
