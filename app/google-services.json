@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414675530701",
+    "project_id": "listingapp-4b027",
+    "storage_bucket": "listingapp-4b027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414675530701:android:e171daa081eaf39d384a84",
+        "android_client_info": {
+          "package_name": "com.sp.mylisting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-FkuVg2ovw-6RkBsFfmU0L36tVWEXfA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
